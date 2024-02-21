@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>G Form</title>
+    
+
+</head>
+
+<body class= "container">
+
+    <form action="/submit" method="post">
+
+        <label for="textField">Text Field:</label>
+        <input type="text" id="textField" name="textField" pattern="[A-Za-z]{1,15}" required>
+
+        <br>
+
+        <label for="checkbox">Checkbox:</label>
+        <input type="checkbox" id="checkbox" name="checkbox">
+
+        <br>
+
+        <label for="radio">Radio Button</label>
+        
+        <input type="radio" id="radio" name="radio" value="option1" checked>
+        <label for="radio">Option 1</label>
+
+        <input type="radio" id="radio" name="radio" value="option2">
+        <label for="radio">Option 2</label>
+
+        <br>
+
+        <label for="dropdown">Dropdown Menu:</label>
+        <select id="dropdown" name="dropdown">
+
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+
+        </select>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+    </form>    
+
+</body>
+
+</html>

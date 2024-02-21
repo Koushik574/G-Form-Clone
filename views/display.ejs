@@ -1,0 +1,19 @@
+<!-- views/display.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Display Data</title>
+</head>
+<body class="container">
+    <h2>Submitted Data</h2>
+    <p>Text Field: <%= data.textField %></p>
+    <p>Checkbox: <%= data.checkbox ? 'Yes' : 'No' %></p>
+    <p>Radio Button: <%= data.radio %></p>
+    <p>Dropdown Menu: <%= data.dropdown %></p>
+
+    <a href="/">Go Back</a>
+</body>
+</html>
